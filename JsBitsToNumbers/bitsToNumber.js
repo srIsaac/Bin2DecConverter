@@ -16,14 +16,14 @@ function transformaBinarioEmNumero(numeroBinario){
 
     let numerosBinarios = geraArrayInputNumeros(numeroBinario);
 
-    var binarioConvertido = transformaArrayEmBinario(numerosBinarios);
+    let binarioConvertido = transformaArrayEmBinario(numerosBinarios);
 
     return binarioConvertido;
 }
 
 
 function geraArrayInputNumeros(numeroBinario){
-    var numerosBinarios = numeroBinario.split('').map(function(item){
+    let numerosBinarios = numeroBinario.split('').map(function(item){
         //Transforma numeros do input para uma array de Inteiros
         return parseInt(item, 10);
     });
